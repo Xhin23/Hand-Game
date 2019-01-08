@@ -1,0 +1,124 @@
+#content { text-align: center; }
+   
+#content > div {
+    display: inline-block; 
+    vertical-align: bottom;  
+    text-align: left;   
+}
+    
+#hand-wrapper { 
+    position: relative; 
+    min-height: 477px;
+}
+    
+#hand > div {
+    position: absolute; 
+    bottom: 0px;
+}
+
+#hand > div:hover {
+    cursor: pointer;
+}
+    
+#handone {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 6;
+}
+
+#info { 
+    margin-left: -285px;
+    padding-bottom: 60px;
+    margin-right: 10px;
+}
+
+#info > table {
+    border-spacing: 0px;
+    background-color: #ccc;
+    font-size: 1.3em;
+    border-top: 1px solid #777;
+    border-left: 1px solid #777;
+}
+
+#info td {
+    border-right: 1px solid #777;
+    border-bottom: 1px solid #777;
+    padding: 10px;
+}
+
+#info .control { padding: 0px; }
+
+#score, #moves { font-weight: bold; }
+#score { color: #090; }
+#moves { color: #009; }
+    
+#puzzle-reset, #puzzle-new, #puzzle-solution {
+    padding: 7px;
+    font-size: 1.1em;
+    width: 100%;
+    text-align: left;
+}
+
+#controls {
+    margin-top: 20px; 
+}
+
+#puzzle-id {
+    width: 500px;
+    padding: 7px;
+}
+    
+.indicator {
+    background-image: url('http://gtx0.com/projects/handgame/images/indicator.png');
+    width: 14px;
+    height: 10px;
+    position: absolute;
+}
+
+.solution {
+	position: absolute;
+}
+
+#help {
+    position: relative;
+    background-color: #e0e4ff;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 10px #aaa;
+    border-radius: 16px;
+	margin: 10px 0px;
+}
+
+#help ul {
+    list-style-type: circle;
+}
+
+#help li {
+    margin-top: 5px; 
+}
+
+#help-close {
+    color: #000;
+    text-decoration: none;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background-color: #ffdede;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+#help-close:hover {
+    background-color: #faa;
+}
+
+#solution {
+	font-size: 1.5em;
+	display: block !important;
+	text-align: center !important;
+}
